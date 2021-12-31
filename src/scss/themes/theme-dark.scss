@@ -96,6 +96,35 @@ body[data-theme="dark"] {
       }
    }
 
+   #education {
+      background: #7f7f7f;
+      .section-title {
+         color: white !important;
+      }
+
+      .education-badge {
+         background: #7f7f7f !important;
+         color: white;
+      }
+
+      .main-badge {
+         background: #7f7f7f !important;
+      }
+
+      .vertical-timeline-element-date {
+         color: white;
+      }
+
+      .vertical-timeline-element-icon {
+         background: #7f7f7f !important;
+      }
+      @media only screen and (max-width: 1169px) { 
+         .vertical-timeline-element-date {
+            color: black;
+         }
+      }
+   }
+
    .modal-inside .modal-content {
       background: #5b5b5b;
       color: white;
