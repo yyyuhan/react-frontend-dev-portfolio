@@ -234,7 +234,8 @@ header h1 {
 }
 
 .main-badge {
-	font-size: 13px !important;
+	font-size: 16px !important;
+	// font-size: 13px !important;
 	text-align: left !important;
 	padding: 5px 8px 5px 8px !important;
 	vertical-align: baseline;
@@ -245,7 +246,8 @@ header h1 {
 }
 
 .experience-badge {
-	font-size: 11px !important;
+	font-size: 14px !important;
+	// font-size: 11px !important;
 	text-align: left !important;
 	padding: 5px 8px 5px 8px !important;
 	vertical-align: baseline;
@@ -258,6 +260,8 @@ header h1 {
 .vertical-timeline-element-date {
 	padding: 0 !important;
 	margin: 0 !important;
+	// added by yuhan
+	font-size: 14px !important;
 }
 
 @media only screen and (max-width: 1170px) {

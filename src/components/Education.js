@@ -24,7 +24,7 @@ class Education extends Component {
         });
         var tech = technologies.map((technology, i) => {
           return (
-            <Badge pill className="education-badge mr-2 mb-2" key={i}>
+            <Badge pill className="experience-badge mr-2 mb-2" key={i}>
               {technology}
             </Badge>
           );
@@ -66,7 +66,7 @@ class Education extends Component {
               {work.degree}
             </h4>
             {/* yuhancao@2021-12-31: add description */}
-            <div style={{ textAlign: "left", marginBottom: "4px" }}>
+            <div style={{ textAlign: "left", marginTop: "10px", fontSize: "larger" }}>
               {desc}
             </div>
             <div style={{ textAlign: "left", marginTop: "15px" }}>{tech}</div>

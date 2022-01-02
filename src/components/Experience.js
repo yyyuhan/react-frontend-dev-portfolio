@@ -66,7 +66,7 @@ class Experience extends Component {
               {work.title}
             </h4>
             {/* yuhancao@2021-12-31: add description */}
-            <div style={{ textAlign: "left", marginBottom: "4px" }}>
+            <div style={{ textAlign: "left", marginTop: "10px", fontSize: "larger" }}>
               {desc}
             </div>
             <div style={{ textAlign: "left", marginTop: "15px" }}>{tech}</div>
